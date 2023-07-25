@@ -22,6 +22,8 @@ public class Usuario  implements UserDetails{
     private Long  id;
     private String username;
 
+
+
     @NotEmpty
     @Size(min =  5, message = " debe tener almenos 5 caracteres")
     private  String password;
